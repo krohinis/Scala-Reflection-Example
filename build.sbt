@@ -1,0 +1,13 @@
+import play.Project._
+
+name := "hello-play-scala"
+
+version := "1.0-SNAPSHOT"
+
+scalaVersion := "2.12.2"
+
+libraryDependencies ++= Seq(
+  "org.webjars" %% "webjars-play" % "2.2.2",
+  "org.webjars" % "bootstrap" % "2.3.1")
+
+playScalaSettings
